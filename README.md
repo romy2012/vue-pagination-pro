@@ -1,5 +1,6 @@
-vue-pagination 改良版
-父级使用：
+# vue-pagination 改良版
+## 父级使用：
+```html
 <template>
 <div>
 
@@ -44,3 +45,5 @@ mounted: function () {
 
 }
 </script>
+
+```
