@@ -1,5 +1,5 @@
-vue-pagination ¸ÄÁ¼°æ
-¸¸¼¶Ê¹ÓÃ£º
+vue-pagination æ”¹è‰¯ç‰ˆ
+çˆ¶çº§ä½¿ç”¨ï¼š
 <template>
 <div>
 
@@ -25,21 +25,22 @@ props: {
 },
 data (){
 return{
-total: 100,     // ¼ÇÂ¼×ÜÌõÊı   Ä¬ÈÏ¿Õ£¬Èç¹ûĞ¡ÓÚpageNumÔò×é¼ş²»ÏÔÊ¾   ÀàĞÍNumber
-pageNum: 10,    // Ã¿Ò³ÏÔÊ¾ÌõÊı,Ä¬ÈÏ10                              ÀàĞÍNumber
-current: 2,     // µ±Ç°Ò³Êı£¬   Ä¬ÈÏÎª1                             ÀàĞÍNumber
-pagegroup:5,     // ·ÖÒ³ÌõÊı     Ä¬ÈÏÎª5£¬Ğè´«ÈëÆæÊı                  ÀàĞÍNumber
+total: 100,     // è®°å½•æ€»æ¡æ•°   é»˜è®¤ç©ºï¼Œå¦‚æœå°äºpageNumåˆ™ç»„ä»¶ä¸æ˜¾ç¤º   ç±»å‹Number
+pageNum: 10,    // æ¯é¡µæ˜¾ç¤ºæ¡æ•°,é»˜è®¤10                              ç±»å‹Number
+current: 2,     // å½“å‰é¡µæ•°ï¼Œ   é»˜è®¤ä¸º1                             ç±»å‹Number
+pagegroup:5,     // åˆ†é¡µæ¡æ•°     é»˜è®¤ä¸º5ï¼Œéœ€ä¼ å…¥å¥‡æ•°                  ç±»å‹Number
 }
 },
 computed:{
 },
 methods: {
-pagechange:function(current){     // Ò³Âë¸Ä±ä´«ÈëĞÂµÄÒ³Âë£¬´Ë´¦×ö»Øµ÷
+pagechange:function(current){     // é¡µç æ”¹å˜ä¼ å…¥æ–°çš„é¡µç ï¼Œæ­¤å¤„åšå›è°ƒ
 console.log(current);
 },
 },
 mounted: function () {
 },
+
 
 }
 </script>
